@@ -11,6 +11,12 @@
                 &studio_unlock  &kp S  &kp D  &kp F  &kp G
                 &kp Z  &kp X  &kp C  &kp V  &kp B
             >;
+
+
+            // Dial behavior on Layer 0: Turn clockwise for Vol Up, counter-clockwise for Vol Down
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+ 
+
         };
     };
 };

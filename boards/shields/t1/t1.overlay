@@ -38,4 +38,19 @@
             RC(2, 0) RC(2, 1) RC(2, 2) RC(2, 3) RC(2, 4)
         >;
     };
+
+    // EC11 Rotary Hardware Nodes
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // CLK to Pin 002
+        b-gpios = <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // DT to Pin 020
+        steps = <80>;
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <20>;
+    };
+
 };
