@@ -44,7 +44,7 @@
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // CLK to Pin 002
         b-gpios = <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // DT to Pin 020
-        steps = <20>;
+        steps = <80>;
         status = "okay";
     };
 
