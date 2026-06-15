@@ -26,5 +26,11 @@
             , <&key_physical_attrs 100 100  300  200       0     0     0>
             , <&key_physical_attrs 100 100  400  200       0     0     0>
             ;
+
+        // CRITICAL FOR ZMK STUDIO: This maps the physical encoder layout placement
+        sensors 
+            = <&sensor_physical_attrs 100 100 500 0 0 0 0>
+            ;
+
     };
 };
