@@ -7,9 +7,9 @@
 
         default_layer {
             bindings = <
-                &kp Q  &kp W  &kp E  &kp R  &kp T
-                &studio_unlock  &kp S  &kp D  &kp F  &kp G
-                &kp Z  &kp X  &kp C  &kp V  &kp B
+                &kp ESC  &kp F1  &kp F2  &kp F3  &kp F4
+                &studio_unlock  &kp F5  &kp F6  &kp F7  &kp F8
+                &kp DEL  &kp F9  &kp F10  &kp F11  &kp F12
             >;
 
 
