@@ -1,6 +1,6 @@
 if SHIELD_T1
 
 config ZMK_KEYBOARD_NAME
-    default "HS K1"
+    default "HS F15"
 
 endif # SHIELD_T1
